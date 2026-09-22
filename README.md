@@ -48,6 +48,7 @@ In this project, I:
 ## Project 2
 
 EC2 MySQL lab: one_percent
+
 In this project, I:
 
 - Launched an Ubuntu t3.micro EC2 instance named database-server
