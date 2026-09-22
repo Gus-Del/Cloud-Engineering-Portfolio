@@ -45,15 +45,16 @@ In this project, I:
 * Windows PowerShell
 * Python fundamentals
 
-Project 2
-EC2 MySQL lab: one_percent 
+## Project 2
+
+EC2 MySQL lab: one_percent
 In this project, I:
 
-Launched an Ubuntu t3.micro EC2 instance named database-server
-Installed and ran MySQL 8
-Created database one_percent with coffee_table, customer_name, and customer_order
-Restricted SSH inbound to my IP only
-Terminated the instance when the lab was finished
+- Launched an Ubuntu t3.micro EC2 instance named database-server
+- Installed and ran MySQL 8
+- Created database one_percent with coffee_table, customer_name, and customer_order
+- Restricted SSH inbound to my IP only
+- Terminated the instance when the lab was finished
 
 ## Current Learning
 
