@@ -13,13 +13,12 @@ Ubuntu EC2 instance named **database-server** running MySQL 8 with three tables 
 
 ## Screenshots
 
-| File | What it shows |
-|---|---|
-| `screenshots/01-ssh-login-database-server.png` | Logged in over EC2 Instance Connect |
-| `screenshots/02-mysql-running.png` | `mysql.service` active (running) |
-| `screenshots/03-all-tables.png` | `SHOW TABLES` and `coffee_table` |
-| `screenshots/03-all-tables-2.png` | `customer_name` and `customer_order` |
-| `screenshots/04-security-group-ssh-my-ip.png` | Inbound SSH from a single /32, not `0.0.0.0/0` |
+00-instance-running.png — instance running, 3/3 checks passed
+01-ssh-login-database-server.png — logged in over EC2 Instance Connect
+02-mysql-running.png — mysql.service active (running)
+03-all-tables.png — SHOW TABLES and coffee_table
+03-customer-tables.png — customer_name and customer_order
+04-security-group-ssh-my-ip.png — inbound SSH from a single /32
 
 ## Schema
 
