@@ -47,7 +47,7 @@ In this project, I:
 
 ## Project 2
 
-EC2 MySQL lab: one_percent
+### [EC2 MySQL Lab: one_percent](./ec2-mysql-one-percent/)
 
 In this project, I:
 
