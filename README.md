@@ -72,7 +72,6 @@ In this project, I:
 
 This project demonstrates IAM users, groups, roles, custom policies, and MFA.
 
-
 ## Current Learning
 
 I am continuing to develop hands-on experience with:
