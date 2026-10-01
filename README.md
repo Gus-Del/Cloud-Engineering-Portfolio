@@ -57,6 +57,22 @@ In this project, I:
 - Restricted SSH inbound to my IP only
 - Terminated the instance when the lab was finished
 
+## Project 3
+
+### [AWS IAM Access Design](./aws-iam-access-design/)
+
+In this project, I:
+
+- Created an IAM user and a developer group with shared permissions.
+- Configured an EC2 IAM role for S3 access without storing access keys on the instance.
+- Tested S3 access from EC2 using `aws s3 ls`.
+- Created a custom policy granting read access to one market-data bucket.
+- Enabled multi-factor authentication (MFA) for the IAM user.
+- Terminated the test instance and documented the work with screenshots and a JSON policy.
+
+This project demonstrates IAM users, groups, roles, custom policies, and MFA.
+
+
 ## Current Learning
 
 I am continuing to develop hands-on experience with:
