@@ -74,6 +74,8 @@ In this project, I:
 
 This project demonstrates IAM users, groups, roles, custom policies, and MFA.
 
+## Project 4
+
 ### [Terraform EC2 and S3](terraform-aws-ec2-s3)
 
 In this project, I:
