@@ -111,6 +111,7 @@ I am continuing to develop hands-on experience with:
 * AWS IAM and S3
 * VPC networking
 * Infrastructure as code with Terraform
+* Configuration management with Ansible
 * Docker and Kubernetes
 * Cloud security and automation
 
