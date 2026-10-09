@@ -1,0 +1,11 @@
+# Copy to inventory.ini after terraform apply.
+# Use public IPv4 addresses. Private 172.31 addresses are not reachable from the control node's Ansible SSH path used in this project.
+# Do not commit a filled inventory if the addresses should stay private.
+
+[webservers]
+# WebServer1
+203.0.113.11
+# WebServer2
+203.0.113.12
+# WebServer3
+203.0.113.13
