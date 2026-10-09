@@ -93,7 +93,7 @@ No access keys or Terraform state are committed.
 
 ## Project 5
 
-### [Ansible NGINX Web Fleet](https://github.com/Gus-Del/ansible-nginx-web-fleet)
+### [Ansible NGINX Web Fleet](https://github.com/Gus-Del/Cloud-Engineering-Portfolio/tree/main/ansible-nginx-web-fleet)
 
 In this project, I:
 
