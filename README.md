@@ -104,6 +104,18 @@ In this project, I:
 - Copied the lab key to the control node, locked it to mode 400, and ran the playbook with failed=0 on all three hosts.
 - Confirmed NGINX was active (running), then stopped the instances. No keys or Terraform state are committed.
 
+## Project 6
+
+### Dockerized Flask App with Kubernetes
+
+In this project, I:
+
+- Containerized a Python Flask application with Docker
+- Built and ran the image with port mapping
+- Deployed NGINX to a local Kubernetes cluster
+- Created a Deployment and Service
+- Scaled the Deployment to 3 replicas
+
 ## Current Learning
 
 I am continuing to develop hands-on experience with:
