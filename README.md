@@ -106,7 +106,7 @@ In this project, I:
 
 ## Project 6
 
-### Dockerized Flask App with Kubernetes
+### [Dockerized Flask App with Kubernetes](docker-kubernetes-flask)
 
 In this project, I:
 
@@ -115,7 +115,7 @@ In this project, I:
 - Deployed NGINX to a local Kubernetes cluster
 - Created a Deployment and Service
 - Scaled the Deployment to 3 replicas
-
+  
 ## Current Learning
 
 I am continuing to develop hands-on experience with:
