@@ -4,7 +4,7 @@ Welcome to my cloud engineering portfolio. This repository documents my hands-on
 
 Drawing on my insurance industry background, these projects demonstrate practical skills in cloud infrastructure, databases, automation, and access security relevant to supporting insurance operations and protecting business data.
 
-## Featured Project
+## Project 1
 
 ### [AWS EC2 and Linux Fundamentals](https://github.com/Gus-Del/Cloud-Engineering-Portfolio/tree/main/01-AWS-EC2-Linux-Project)
 
