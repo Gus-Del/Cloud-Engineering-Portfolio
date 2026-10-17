@@ -49,10 +49,15 @@ In this project, I:
 
 In this project, I:
 
-- Used Ansible to configure multiple NGINX web servers
-- Automated package installation and service management
-- Applied consistent configuration across a fleet of servers
-- Documented the playbooks and inventory
+- Used Terraform to provision one Ansible control node and three Amazon Linux 2023 web servers (t3.micro)
+- Configured a dedicated control node so configuration management stays separate from the application hosts
+- Wrote an Ansible inventory and playbook for Amazon Linux (using `dnf`)
+- Installed and started NGINX on all three web servers from the control node
+- Managed SSH keys securely (private key copied to the control node and locked down with `chmod 400`)
+- Verified NGINX was active on the web servers
+- Stopped the instances after verification to avoid ongoing charges
+
+This project shows repeatable infrastructure provisioning with Terraform and configuration management with Ansible.
 
 ## Project 5
 
