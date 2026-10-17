@@ -115,17 +115,33 @@ In this project, I:
 - Deployed NGINX to a local Kubernetes cluster
 - Created a Deployment and Service
 - Scaled the Deployment to 3 replicas
+
+ ## Project 7
+
+### [Jenkins CI/CD on AWS EC2 with Docker](https://github.com/Gus-Del/Cloud-Engineering-Portfolio/tree/main/jenkins-ec2-docker-cicd)
+
+In this project, I:
+
+- Launched a free-tier Amazon Linux 2023 EC2 instance (t3.micro)
+- Configured security group rules for SSH, HTTP, and Jenkins (port 8080)
+- Installed Docker and ran the official Jenkins LTS container
+- Completed Jenkins initial setup and plugin installation
+- Created declarative Jenkinsfiles for application pipelines and Docker builds
+- Terminated the instance after documenting the work
+
+This project demonstrates practical CI/CD, containerization, and AWS infrastructure skills.
   
 ## Current Learning
 
 I am continuing to develop hands-on experience with:
 
-* AWS IAM and S3
-* VPC networking
-* Infrastructure as code with Terraform
-* Configuration management with Ansible
-* Docker and Kubernetes
-* Cloud security and automation
+- AWS IAM, S3, and EC2
+- VPC networking and security groups
+- Infrastructure as code with Terraform
+- Configuration management with Ansible
+- Docker and Kubernetes
+- CI/CD pipelines with Jenkins
+- Cloud security and automation
 
 ## Portfolio Goal
 
