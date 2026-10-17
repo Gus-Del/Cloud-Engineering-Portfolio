@@ -61,14 +61,18 @@ This project shows repeatable infrastructure provisioning with Terraform and con
 
 ## Project 5
 
-### [Terraform AWS EC2 and S3](https://github.com/Gus-Del/Cloud-Engineering-Portfolio/tree/main/terraform-aws-ec2-s3)
+### [Terraform EC2 and S3](https://github.com/Gus-Del/Cloud-Engineering-Portfolio/tree/main/terraform-aws-ec2-s3)
 
 In this project, I:
 
-- Wrote Terraform configuration to provision an EC2 instance and S3 bucket
-- Used infrastructure-as-code to manage AWS resources
-- Applied best practices for state and variable management
-- Destroyed resources cleanly after testing
+- Wrote Terraform configuration to provision an Amazon Linux 2023 EC2 instance (t3.micro) and an S3 bucket
+- Refactored the EC2 instance into a reusable module
+- Performed an in-place update by changing the instance Name tag (plan showed 1 to change)
+- Used `force_destroy` on the S3 bucket so cleanup would not fail
+- Ran `terraform destroy` to remove all resources cleanly
+- Kept no access keys, state files, or secrets in the repository
+
+This project demonstrates infrastructure-as-code principles: defining desired state, applying changes, and destroying resources when finished.
 
 ## Project 6
 
