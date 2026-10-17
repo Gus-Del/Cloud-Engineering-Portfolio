@@ -27,11 +27,7 @@ In this project I:
 - Visual Studio Code
 
 ## Repository Structure
-```markdown
-```
 jenkins-ec2-docker-cicd/
 ├── README.md
 ├── Jenkinsfile
 └── Jenkinsfile-docker
-```
-```
