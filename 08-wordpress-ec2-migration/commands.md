@@ -1,4 +1,3 @@
-```markdown
 # Commands Used
 
 ## System Update
