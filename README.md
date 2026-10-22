@@ -101,6 +101,21 @@ In this project, I:
 
 This project demonstrates practical CI/CD, containerization, and AWS infrastructure skills.
 
+## Project 8
+
+### [WordPress Migration to AWS EC2](08-wordpress-ec2-migration)
+
+In this project, I:
+
+- Launched an Ubuntu EC2 instance and configured a security group
+- Connected securely via SSH using an RSA .pem key pair
+- Installed the LAMP stack (Apache, MySQL, PHP)
+- Deployed WordPress, created a dedicated database and user, and configured wp-config.php
+- Completed the WordPress installation and created a database dump backup
+- Terminated the instance after documenting the work
+
+This project demonstrates EC2 provisioning, Linux administration, web server setup, database configuration, and application deployment on AWS.
+
 ## Current Learning
 
 I am continuing to develop hands-on experience with:
