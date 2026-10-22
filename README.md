@@ -127,6 +127,7 @@ I am continuing to develop hands-on experience with:
 - Docker and Kubernetes
 - CI/CD pipelines with Jenkins
 - Cloud security and automation
+- Web application deployment (LAMP stack and WordPress on EC2)
 
 ## Portfolio Goal
 
