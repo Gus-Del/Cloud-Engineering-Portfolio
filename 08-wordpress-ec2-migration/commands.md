@@ -57,7 +57,5 @@ sudo systemctl restart apache2
 ## Backup
 ```bash
 sudo mysqldump -u root wordpress_db > wordpress_backup.sql
-```
-```
 
 
