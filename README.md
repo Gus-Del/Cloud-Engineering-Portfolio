@@ -4,7 +4,6 @@ Welcome to my cloud engineering portfolio. This repository documents my hands-on
 
 Drawing on my insurance industry background, these projects demonstrate practical skills in cloud infrastructure, databases, automation, and access security relevant to supporting insurance operations and protecting business data.
 
-## Project 1
 
 ### [AWS EC2 and Linux Fundamentals](https://github.com/Gus-Del/Cloud-Engineering-Portfolio/tree/main/01-AWS-EC2-Linux-Project)
 
@@ -18,8 +17,6 @@ In this project, I:
 - Wrote and executed a Bash script.
 - Archived and compressed files with `tar` and `gzip`.
 
-## Project 2
-
 ### [EC2 MySQL Lab: one_percent](https://github.com/Gus-Del/Cloud-Engineering-Portfolio/tree/main/ec2-mysql-one-percent)
 
 In this project, I:
@@ -29,8 +26,6 @@ In this project, I:
 - Created database one_percent with coffee_table, customer_name, and customer_order
 - Restricted SSH inbound to my IP only
 - Terminated the instance when the lab was finished
-
-## Project 3
 
 ### [AWS IAM Access Design](https://github.com/Gus-Del/Cloud-Engineering-Portfolio/tree/main/aws-iam-access-design)
 
@@ -43,7 +38,6 @@ In this project, I:
 - Enabled multi-factor authentication (MFA) for the IAM user.
 - Terminated the test instance and documented the work with screenshots and a JSON policy.
 
-## Project 4
 
 ### [Ansible NGINX Web Fleet](https://github.com/Gus-Del/Cloud-Engineering-Portfolio/tree/main/ansible-nginx-web-fleet)
 
@@ -59,7 +53,6 @@ In this project, I:
 
 This project shows repeatable infrastructure provisioning with Terraform and configuration management with Ansible.
 
-## Project 5
 
 ### [Terraform EC2 and S3](https://github.com/Gus-Del/Cloud-Engineering-Portfolio/tree/main/terraform-aws-ec2-s3)
 
@@ -74,7 +67,6 @@ In this project, I:
 
 This project demonstrates infrastructure-as-code principles: defining desired state, applying changes, and destroying resources when finished.
 
-## Project 6
 
 ### [Dockerized Flask App with Kubernetes](https://github.com/Gus-Del/Cloud-Engineering-Portfolio/tree/main/docker-kubernetes-flask)
 
@@ -86,7 +78,6 @@ In this project, I:
 - Created a Deployment and Service
 - Scaled the Deployment to 3 replicas
 
-## Project 7
 
 ### [Jenkins CI/CD on AWS EC2 with Docker](https://github.com/Gus-Del/Cloud-Engineering-Portfolio/tree/main/jenkins-ec2-docker-cicd)
 
@@ -101,7 +92,6 @@ In this project, I:
 
 This project demonstrates practical CI/CD, containerization, and AWS infrastructure skills.
 
-## Project 8
 
 ### [WordPress Migration to AWS EC2](08-wordpress-ec2-migration)
 
