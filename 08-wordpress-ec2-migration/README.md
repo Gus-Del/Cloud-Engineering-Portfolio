@@ -30,12 +30,11 @@ A hands-on project that migrates a WordPress site onto an AWS EC2 Ubuntu instanc
 
 ## Project Structure
 
-08-wordpress-ec2-migration/
-├── README.md
-├── commands.md
-└── screenshots/
-├── 01-ssh-login.png
-├── 02-wordpress-success.png
-├── 03-live-site.png
-└── 04-database-dump.png
+- `README.md`
+- `commands.md`
+- `screenshots/`
+  - `01-ssh-login.png`
+  - `02-wordpress-success.png`
+  - `03-live-site.png`
+  - `04-database-dump.png`
 
