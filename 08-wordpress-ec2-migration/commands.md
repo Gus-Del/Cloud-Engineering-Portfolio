@@ -1,11 +1,3 @@
-**Almost — the formatting broke.**
-
-In your screenshots the commands are showing as plain text instead of proper code blocks, and the section headings disappeared. That usually happens if the triple backticks (```) got stripped when you pasted.
-
-### Fix it
-1. Open `commands.md` and click the pencil (Edit).
-2. Replace everything with this clean version:
-
 ```markdown
 # Commands Used
 
