@@ -58,12 +58,3 @@ eks-wordpress-helm/
 
 - External access through the Classic LoadBalancer hostname remained unreliable (target stayed Out-of-service). The application itself was confirmed healthy via port-forward.
 - All AWS resources were deleted after documentation to avoid ongoing charges.
-
-## Screenshots
-
-Place 3–4 screenshots in the `screenshots/` folder before uploading:
-
-1. `kubectl get nodes` showing Ready
-2. `helm install` success + `kubectl get pods` 1/1 Ready
-3. Browser showing WordPress at localhost:8080
-4. `kubectl get hpa` output
