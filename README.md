@@ -106,6 +106,19 @@ In this project, I:
 
 This project demonstrates EC2 provisioning, Linux administration, web server setup, database configuration, and application deployment on AWS.
 
+### [EKS WordPress Deployment with Helm](eks-wordpress-helm)
+
+In this project, I:
+
+- Provisioned an Amazon EKS cluster with a managed node group using eksctl
+- Installed the Amazon VPC CNI addon so nodes could become Ready
+- Created a Helm chart and deployed WordPress
+- Fixed liveness/readiness probe failures that caused CrashLoopBackOff
+- Verified the application using kubectl port-forward
+- Created a Horizontal Pod Autoscaler (min 1, max 10)
+
+This project demonstrates EKS provisioning, Helm chart customization, Kubernetes troubleshooting, and autoscaling on AWS.
+
 ## Current Learning
 
 I am continuing to develop hands-on experience with:
@@ -118,6 +131,7 @@ I am continuing to develop hands-on experience with:
 - CI/CD pipelines with Jenkins
 - Cloud security and automation
 - Web application deployment (LAMP stack and WordPress on EC2)
+- Amazon EKS, Helm, and Kubernetes workload management
 
 ## Portfolio Goal
 
