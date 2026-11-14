@@ -119,7 +119,7 @@ In this project, I:
 
 This project demonstrates EKS provisioning, Helm chart customization, Kubernetes troubleshooting, and autoscaling on AWS.
 
-### ECS Fargate Deployment with Terraform
+### [ECS Fargate Deployment with Terraform](./tech-challenge-1-ecs-fargate)
 
 In this project, I:
 - Provisioned a full ECS Fargate environment with Terraform (VPC, cluster, services, task definitions, ALB, ECR, IAM)
@@ -131,7 +131,7 @@ In this project, I:
 - Verified end-to-end functionality with the frontend displaying a UUID from the backend
 - Documented the live ALB URL, Jenkins details, and reproduction steps
 
-[View project](./tech-challenge-1-ecs-fargate)
+This project demonstrates serverless container deployment on AWS using ECS Fargate, Infrastructure as Code with Terraform, load balancing, auto-scaling, and CI/CD with Jenkins.
 
 ## Current Learning
 
