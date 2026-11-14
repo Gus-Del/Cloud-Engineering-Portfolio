@@ -149,6 +149,9 @@ I am continuing to develop hands-on experience with:
 - AWS ECS Fargate and serverless container deployments
 - Application Load Balancer path-based routing and target groups
 - Amazon ECR for container image storage
+- AWS ECS Fargate auto-scaling with target tracking (CPU)
+- Jenkins CI/CD pipelines running in Docker
+- Path-based routing and target groups on an Application Load Balancer
 
 ## Portfolio Goal
 
