@@ -62,9 +62,10 @@ tech-challenge-1-ecs-fargate/
 ## Jenkins CI/CD
 
 - Jenkins URL: http://localhost:8080
-- Pipeline job: `tech-challenge-pipeline`
-- Initial admin password was: `7296c5c192a643b29d53da02e76f9d2a`
+- Pipeline job: tech-challenge-pipeline
+- Initial admin password was: 7296c5c192a643b29d53da02e76f9d2a
 - Login: admin
+- *(Jenkins was running locally only and is no longer active.)*
 
 ## How to Reproduce
 
