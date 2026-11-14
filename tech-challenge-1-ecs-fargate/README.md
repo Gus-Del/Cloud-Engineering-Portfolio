@@ -27,8 +27,9 @@ A hands-on project that deploys a React frontend and Express backend to AWS ECS 
 
 ## Deployed Application
 
-- **ALB URL:** http://tech-challenge-alb-368603018.us-east-1.elb.amazonaws.com
-- The page displays a UUID when the frontend successfully communicates with the backend.
+- ALB URL: http://tech-challenge-alb-368603018.us-east-1.elb.amazonaws.com  
+  *(Environment has been destroyed to avoid ongoing AWS charges. Screenshots of the working application are in the screenshots/ folder.)*
+- The page displayed a UUID when the frontend successfully communicated with the backend.
 
 ## Project Structure
 
