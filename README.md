@@ -119,20 +119,19 @@ In this project, I:
 
 This project demonstrates EKS provisioning, Helm chart customization, Kubernetes troubleshooting, and autoscaling on AWS.
 
-### [ECS Fargate Deployment with Terraform](ecs-fargate-terraform)
+### ECS Fargate Deployment with Terraform
 
 In this project, I:
+- Provisioned a full ECS Fargate environment with Terraform (VPC, cluster, services, task definitions, ALB, ECR, IAM)
+- Configured an Application Load Balancer with path-based routing (`/` → frontend, `/api` → backend)
+- Built and pushed Docker images for the React frontend and Express backend to private ECR repositories
+- Set task definitions to 0.5 vCPU / 1 GB and forced new deployments after image updates
+- Implemented Application Auto Scaling (min 1, max 4, target 50% average CPU utilization)
+- Stood up Jenkins in a Docker container and created a working pipeline job
+- Verified end-to-end functionality with the frontend displaying a UUID from the backend
+- Documented the live ALB URL, Jenkins details, and reproduction steps
 
-- Provisioned an ECS Fargate cluster, services, task definitions, and networking with Terraform
-- Configured an Application Load Balancer with target groups and listener rules for path-based routing
-- Built and pushed Docker images for the frontend and backend to Amazon ECR
-- Created an IAM execution role for ECR image pulls and CloudWatch logging
-- Updated task definitions to use the ECR image URIs
-- Configured the frontend to call the backend through the ALB
-- Adjusted ALB listener rules so `/api` traffic reaches the backend
-- Verified end-to-end functionality with the backend returning a UUID through the load balancer
-
-This project demonstrates serverless container deployment on AWS using ECS Fargate, Infrastructure as Code with Terraform, and load balancer configuration.
+[View project](./tech-challenge-1-ecs-fargate)
 
 ## Current Learning
 
